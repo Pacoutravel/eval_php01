@@ -1,8 +1,7 @@
 <?php
-
 function isvoyelle($lettre)
 {
-  $voyelle= false;
+  $voyelle= "";
 
   if (
   ($lettre== 'a') ||
@@ -16,7 +15,7 @@ function isvoyelle($lettre)
   ($lettre== 'O') ||
   ($lettre== 'U')
   ) {
-   $voyelle= true;
+   $voyelle= "";
 }
 
  return($voyelle);
