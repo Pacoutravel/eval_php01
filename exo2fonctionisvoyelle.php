@@ -2,6 +2,7 @@
 function isvoyelle($lettre)
 {
   $voyelle= "";
+  $mot= "";
 
   if (
   ($lettre== 'a') ||
@@ -16,6 +17,8 @@ function isvoyelle($lettre)
   ($lettre== 'U')
   ) {
    $voyelle= "";
+}
+
 }
 
  return($voyelle);
